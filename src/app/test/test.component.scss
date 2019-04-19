@@ -1,0 +1,11 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-item {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 1px solid;
+}

@@ -1,0 +1,13 @@
+<div >
+    <div class="flex" *ngFor="let g of grid; let i = index">
+      <div 
+          class="box-item" 
+          *ngFor="let box of g; let j = index" 
+          (click)="makeMove(i, j)">
+        {{ box }}
+      </div>
+    </div>
+    <div>
+      <button (click)="resetBoard()">Reset Game</button>
+    </div>
+</div>
